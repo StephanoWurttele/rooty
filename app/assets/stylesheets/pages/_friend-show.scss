@@ -1,33 +1,34 @@
-.card-header{
-  background-image: url('https://images.unsplash.com/photo-1504025468847-0e438279542c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') !important;
+.card-header {
   padding: 0 !important;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   text-align:center;
+  background-color: transparent;
+  border-bottom: none;
+  margin-bottom: 10px;
+
 }
-.card{
-  overflow: hidden;
+.card {
   border:0 !important;
   width: 350px;
-  box-shadow: 0px 0px 15px 1px;
-  -webkit-box-shadow:0px 0px 15px 1px;
+  height: 180px;
+  border-radius: 3px;
 }
 .profile_pic{
   position: absolute;
   bottom: -50px;
-  height: 112px;
-  width: 112px;
+  height: 100px;
   padding: 5px;
   // border: 2px solid #f39c12;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
-.card-body{
-  padding-top: 50px !important;
+.card-body-user-profile{
+  padding-top: 25px !important;
 }
 .profile_pic img{
   height: 100px;
@@ -37,23 +38,20 @@
 .name_container{
   display: flex;
   justify-content: center;
-
 }
-.username{
+
+.friends-photo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.username {
   font-size: 20px;
   font-weight: 700;
   color: gray;
   position: relative;
-// }
-// .username::after{
-//   font-family: "Font Awesome 5 Free";
-//   // content: '\f058';
-//   position: absolute;
-//   right: -15px;
-//   top:0;
-//   font-size: 15px;
-//   font-weight: 700;
-//   color: #4CAF50;
+  margin: 0 0 0;
 }
 .fullname{
   display: flex;
@@ -61,6 +59,7 @@
   font-size: 16px;
   color: gray;
   position: relative;
+  margin: 0 0 0;
 }
 
 .bungee-font-small-friends {
@@ -97,4 +96,21 @@
 }
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.btn-ghost {
+  color: white;
+  border: 1px solid #5db5b5;
+  background-color: #00b1ff;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+
+  margin-bottom: 20px;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
 }

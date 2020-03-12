@@ -11,6 +11,7 @@
       <%= submit_tag "Search", class: "btn btn-dark" %>
     <% end %>
   </div>
+
   <div id="user-list">
     <% @users.each do |f| %>
       <div>
@@ -29,8 +30,8 @@
           </div>
         </div>
       <% end %>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
 <div class="bottom-img-friends" style="background: linear-gradient(#FFFBE8, rgb(255,255,255), transparent), url(<%= image_path('bottom-background3.png') %>);">
 </div>

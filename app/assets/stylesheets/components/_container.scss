@@ -7,6 +7,10 @@ a {
   background-color: #FFFBE8;
 }
 
+.container {
+  max-width: 700px;
+  text-align: center;
+}
 .bottom-img-events {
   opacity: 0.9;
   position: fixed;
@@ -19,7 +23,7 @@ a {
 .bottom-img-profile {
   opacity: 0.1;
   position: fixed;
-  z-index:-1;
+  z-index: -1;
   bottom: 0;
   height: 800px;
   width: 100% !important;

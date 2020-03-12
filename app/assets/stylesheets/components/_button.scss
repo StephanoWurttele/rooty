@@ -10,6 +10,19 @@
   width: 100%;
 }
 
+.btn-add {
+  border-radius: 20px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #BFFBF8;
+  opacity: .9;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .bungee-font {
   font-family: 'Bungee Inline', cursive;
   font-size: 100px;
